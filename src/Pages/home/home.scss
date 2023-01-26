@@ -20,16 +20,16 @@
   flex-direction: column;
   gap: 1rem;
   
-  h2 {
-    font: $overpass-b;
-    color: $white;
-  }
+  // h2 {
+  //   font: $overpass-b;
+  //   color: $white;
+  // }
 
-  p {
-    font: $overpass-r;
-    color: $light-gray;
-    width: 30ch;
-  }
+  // p {
+  //   font: $overpass-r;
+  //   color: $light-gray;
+  //   width: 30ch;
+  // }
 }
 
 form {
@@ -59,14 +59,15 @@ form {
         background-color: $light-gray;
         cursor: pointer;
       }
+
+      &.active {
+        background-color: $orange;
+      }
     }
-  .number.active {
-    background-color: $orange;
-  }
   }
   .submitBtn {
     background-color: $orange;
-    color: white;
+    color: $white;
     border: none;
     border-radius: 20px;
     padding: .5rem 0;

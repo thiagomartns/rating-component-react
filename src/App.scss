@@ -25,5 +25,16 @@
     align-items: flex-start;
     justify-content: space-around;
     gap: 1rem;
+
+    h2 {
+      font: $overpass-b;
+      color: $white;
+    }
+  
+    p {
+      font: $overpass-r;
+      color: $light-gray;
+      width: 30ch;
+    }
   }
 }
