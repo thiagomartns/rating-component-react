@@ -1,1 +1,82 @@
 @import '../../global.scss';
+
+.imgContainer {
+  width: 20px;
+  height: 20px;
+  background-color: $medium-gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 1rem;
+
+  img {
+    font-size: .5rem;
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+  h2 {
+    font: $overpass-b;
+    color: $white;
+  }
+
+  p {
+    font: $overpass-r;
+    color: $light-gray;
+    width: 30ch;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  width: 100%;
+
+  .numbersContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+    .number {
+      background-color: $medium-gray;
+      border: none;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      padding: 1rem 1.25rem;
+      font: $overpass-r;
+      font-size: 1rem;
+      color: $white;
+
+      &:hover {
+        background-color: $light-gray;
+        cursor: pointer;
+      }
+    }
+  .number.active {
+    background-color: $orange;
+  }
+  }
+  .submitBtn {
+    background-color: $orange;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: .5rem 0;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+
+    &:hover {
+      background-color: $white;
+      color: $orange;
+      cursor: pointer;
+    }
+  }
+}
