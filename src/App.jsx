@@ -14,7 +14,7 @@ function App() {
         <Router>
           <Routes>
             <Route exact path='/' element={<Home rating={rating} setRating={setRating} />} />
-            <Route path='thanks' element={<Thanks />} />
+            <Route path='thanks' element={<Thanks rating={rating} />} />
           </Routes>
         </Router>
       </div>
