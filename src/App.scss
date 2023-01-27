@@ -26,15 +26,21 @@
     justify-content: space-around;
     gap: 1rem;
 
-    h2 {
-      font: $overpass-b;
-      color: $white;
+    .info {
+      display: flex;
+      flex-direction: column;
+      gap: .75rem;
+
+      h2 {
+        font: $overpass-b;
+        color: $white;
+      }
+    
+      p {
+        font: $overpass-r;
+        color: $light-gray;
+      }
     }
-  
-    p {
-      font: $overpass-r;
-      color: $light-gray;
-      width: 30ch;
-    }
+
   }
 }

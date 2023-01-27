@@ -12,7 +12,7 @@ const Thanks = ({ rating }) => {
           You selected {rating} out of 5
         </span>
       </div>
-      <div className="infoThanks">
+      <div className="info">
         <h2>Thank you!</h2>
         <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch</p>
       </div>
